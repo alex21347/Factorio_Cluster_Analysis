@@ -22,7 +22,7 @@ So using the code below I was able to write all of the enemy base co-ordinates t
 The extracted co-ordinates can be seen in the below figure
  <br/>
  <br/>
-<img src="factorio_data_plot.png" alt="Factorio Screenshot" width="500"/>
+<img src="factorio_data_plot.png" alt="Factorio Screenshot" width="450"/>
 
 
 
