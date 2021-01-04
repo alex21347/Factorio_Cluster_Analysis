@@ -30,7 +30,12 @@ distance, we can see there is a strong 'attraction' between enemy bases. <br/>
 <br/>
 <img src="pcf_factorio.PNG" alt="pcf" width="550"/>
 <br/>
-Fitting the data to a Matern cluster process, we get approximations of kappa = 0.00001 and scale = 20.3.
-
-
-
+Fitting the data to a Matern cluster process, we get approximations of kappa = 0.00001 and scale = 20.3. <br/>
+We can now generate new clusters of roughly the same distrubition!
+<br/>
+<br/>
+<img src="sim_clust.PNG" alt="pcf" width="400"/>
+<br/>
+However, Matern cluster process does not encapsulate all the desired properties. The population of the enemy base clusters <br/>
+seems dependent on the distance from the origin (further away gives bigger clusters), thus for a more accurate model we must <br/>
+construct a gibbs process that also takes the distance to the origin as a parameter.
