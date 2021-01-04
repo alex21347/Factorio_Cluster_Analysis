@@ -28,7 +28,7 @@ And now we can take this data and use the "spatstat" library in R to analyse the
 Plotting the pair correlation function below demostrates the clear clustering behavior the enemy bases possess, because for a low <br/>
 distance, we can see there is a strong 'attraction' between enemy bases. <br/>
 <br/>
-<img src="pcf_factorio.png" alt="pcf" width="650"/>
+<img src="pcf_factorio.PNG" alt="pcf" width="650"/>
 <br/>
 Fitting the data to a Matern cluster process, we get approximations of kappa = 0.00001 and scale = 20.3.
 
