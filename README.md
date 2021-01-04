@@ -25,7 +25,7 @@ The extracted co-ordinates can be seen in the below figure
 <img src="factorio_data_plot.png" alt="Factorio data plot" width="450"/>
 <br/>
 And now we can take this data and use the "spatstat" library in R to analyse the data and fit it to a clustering process.
-Plotting the pair correlation function below demostrates the clear clustering behavior the enemy bases possess, because for a low
+Plotting the pair correlation function below demostrates the clear clustering behavior the enemy bases possess, as for a low
 distance, we can see there is a strong 'attraction' between enemy bases. <br/>
 <br/>
 <img src="pcf_factorio.PNG" alt="pcf" width="550"/>
