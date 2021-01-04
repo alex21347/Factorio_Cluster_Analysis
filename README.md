@@ -15,3 +15,14 @@ So using the code below I was able to write all of the enemy base co-ordinates t
     end 
 game.write_file("positions.csv", string)
 ```
+<br/>
+The following extracted co-ordinates can be seen in the below figure
+ <br/>
+<img src="factorio_data_plot.png" alt="Factorio Screenshot" width="600"/>
+
+
+
+
+
+
+
