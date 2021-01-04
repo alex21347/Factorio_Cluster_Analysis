@@ -4,7 +4,7 @@ Whilst playing factorio, I realised that it might be possible to apply the topol
 <br/>
 Below is a screenshot of the Factorio map, displaying hundreds of enemy bases. <br/>
 
-<img src="factorio_screenshot.png" alt="Factorio Screenshot" width="600"/>
+<img src="factorio_screenshot.png" alt="Factorio Screenshot" width="500"/>
 <br/>
 And then by using the programming language Lua, you can extract features from the game server in the in-game console. <br/> 
 So using the code below I was able to write all of the enemy base co-ordinates to the user data directory :) <br/>
@@ -18,7 +18,7 @@ game.write_file("positions.csv", string)
 <br/>
 The following extracted co-ordinates can be seen in the below figure
  <br/>
-<img src="factorio_data_plot.png" alt="Factorio Screenshot" width="600"/>
+<img src="factorio_data_plot.png" alt="Factorio Screenshot" width="400"/>
 
 
 
