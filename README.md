@@ -9,6 +9,8 @@ Below is a screenshot of the Factorio map, displaying hundreds of enemy bases. <
 And then by using the programming language Lua, you can extract features from the game server in the in-game console. <br/> 
 So using the code below I was able to write all of the enemy base co-ordinates to the user data directory :) <br/>
 
+<br/>
+
 ```
  local string = "Index, X, Y" for k, spawner in pairs (game.surfaces[1].find_entities_filtered{type = "unit-spawner"})
     do string = string.."\n"..k..", "..spawner.position.x..", "..spawner.position.y
@@ -16,7 +18,8 @@ So using the code below I was able to write all of the enemy base co-ordinates t
 game.write_file("positions.csv", string)
 ```
 <br/>
-The following extracted co-ordinates can be seen in the below figure
+The extracted co-ordinates can be seen in the below figure
+ <br/>
  <br/>
 <img src="factorio_data_plot.png" alt="Factorio Screenshot" width="400"/>
 
