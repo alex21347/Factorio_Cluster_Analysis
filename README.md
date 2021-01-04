@@ -6,7 +6,7 @@ Below is a screenshot of the Factorio map, displaying hundreds of enemy bases (i
 
 <img src="factorio_screenshot.png" alt="Factorio Screenshot" width="500"/>
 <br/>
-And then by using the programming language Lua, you can extract features from the game server in the in-game console. <br/> 
+And then by using the programming language Lua, you can extract features from the game server in the in-game console.
 So using the code below I was able to write all of the enemy base co-ordinates to the user data directory :) <br/>
 
 <br/>
@@ -24,8 +24,8 @@ The extracted co-ordinates can be seen in the below figure
  <br/>
 <img src="factorio_data_plot.png" alt="Factorio data plot" width="450"/>
 <br/>
-And now we can take this data and use the "spatstat" library in R to analyse the data and fit it to a clustering process. <br/>
-Plotting the pair correlation function below demostrates the clear clustering behavior the enemy bases possess, because for a low <br/>
+And now we can take this data and use the "spatstat" library in R to analyse the data and fit it to a clustering process.
+Plotting the pair correlation function below demostrates the clear clustering behavior the enemy bases possess, because for a low
 distance, we can see there is a strong 'attraction' between enemy bases. <br/>
 <br/>
 <img src="pcf_factorio.PNG" alt="pcf" width="550"/>
@@ -35,6 +35,6 @@ We can now generate new clusters of roughly the same distrubition!
 <br/>
 <br/>
 <img src="sim_clust.PNG" alt="pcf" width="300"/>
-However, Matern cluster process does not encapsulate all the desired properties. The population of the enemy base clusters <br/>
-seems dependent on the distance from the origin (further away gives bigger clusters), thus for a more accurate model we must <br/>
+However, Matern cluster process does not encapsulate all the desired properties. The population of the enemy base clusters
+seems dependent on the distance from the origin (further away gives bigger clusters), thus for a more accurate model we must
 construct a gibbs process that also takes the distance to the origin as a parameter.
