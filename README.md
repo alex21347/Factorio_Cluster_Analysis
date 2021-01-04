@@ -4,4 +4,4 @@ Whilst playing factorio, I realised that it might be possible to apply the topol
 <br/>
 Below is a screenshot of the Factorio map, displaying hundreds of enemy bases. <br/>
 
-<img src="factorio_screenshot.png" alt="Factorio Screenshot" width="200"/>
+<img src="factorio_screenshot.png" alt="Factorio Screenshot" width="600"/>
