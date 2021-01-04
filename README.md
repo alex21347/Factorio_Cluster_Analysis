@@ -22,13 +22,13 @@ So using the code below I was able to write all of the enemy base co-ordinates t
 The extracted co-ordinates can be seen in the below figure
  <br/>
  <br/>
-<img src="factorio_data_plot.png" alt="Factorio Screenshot" width="450"/>
+<img src="factorio_data_plot.png" alt="Factorio data plot" width="450"/>
 <br/>
 And now we can take this data and use the "spatstat" library in R to analyse the data and fit it to a clustering process. <br/>
 Plotting the pair correlation function below demostrates the clear clustering behavior the enemy bases possess, because for a low <br/>
 distance, we can see there is a strong 'attraction' between enemy bases.\<br>
 <br/>
-<img src="pcf_factorio.png" alt="Factorio Screenshot" width="650"/>
+<img src="pcf_factorio.png" alt="pcf" width="650"/>
 <br/>
 Fitting the data to a Matern cluster process, we get approximations of kappa = 0.00001 and scale = 20.3.
 
