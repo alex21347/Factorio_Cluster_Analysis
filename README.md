@@ -35,6 +35,6 @@ We can now generate new clusters of roughly the same distrubition!
 <br/>
 <br/>
 <img src="sim_clust.PNG" alt="pcf" width="300"/>
-However, Matern cluster process does not encapsulate all the desired properties. The population of the enemy base clusters
+However, Matern cluster process does not encapsulate all the desired properties. Namely, the population of the enemy base clusters
 seems dependent on the distance from the origin (further away gives bigger clusters), thus for a more accurate model we must
 construct a gibbs process that also takes the distance to the origin as a parameter.
