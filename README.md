@@ -44,6 +44,6 @@ Lastly, we can compute the persistence diagram of this dataset:
 <br/>
 <br/>
 <img src="sim_clust.PNG" alt="pcf" width="300"/>
-There is clearly a persistant feature of dimension 1 (denoted by the red triangle), this indicates there is a 'hole' in the data. This is true as no enemy 
+There is clearly a persistant feature of dimension 1 (denoted by the red triangle), this indicates there is a 'hole' in the data. This makes sense as no enemy 
 bases will be created within a certain distance of the origin, so we get a annulus type structure centered at the origin. You can also see the clusters in the 
 persistence diagram as the black dots (represenenting a persistant feature of dimension 0) climbing up the y-axis (the higher up the cluster on the y-axis, the further away it is from any other cluster).
